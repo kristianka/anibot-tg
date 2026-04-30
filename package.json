@@ -1,16 +1,21 @@
 {
-  "name": "anibot-tg",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@10.33.2",
-  "dependencies": {
-    "grammy": "^1.42.0"
-  }
+    "name": "anibot-tg",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "tsx --env-file=.env --watch src/main.ts",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "packageManager": "pnpm@10.33.2",
+    "dependencies": {
+        "grammy": "^1.42.0"
+    },
+    "devDependencies": {
+        "@types/node": "^25.6.0",
+        "tsx": "^4.21.0"
+    }
 }
